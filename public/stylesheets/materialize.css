@@ -5442,9 +5442,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
 h1 {
-  font-size: 4.2rem;
+  font-size: 5rem;
   line-height: 110%;
-  margin: 2.1rem 0 1.68rem 0; }
+  margin: 2.5rem 0 2rem 0; }
 
 h2 {
   font-size: 3.56rem;
@@ -5462,9 +5462,9 @@ h4 {
   margin: 1.14rem 0 0.912rem 0; }
 
 h5 {
-  font-size: 1.64rem;
+  font-size: 2rem;
   line-height: 110%;
-  margin: 0.82rem 0 0.656rem 0; }
+  margin: 1rem 0 0.8rem 0; }
 
 h6 {
   font-size: 1rem;
@@ -5631,7 +5631,7 @@ small {
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 20px; }
     .card .card-action a {
-      color: #ffab40;
+      color: #536dfe;
       margin-right: 20px;
       -webkit-transition: color 0.3s ease;
       -moz-transition: color 0.3s ease;
@@ -5640,7 +5640,7 @@ small {
       transition: color 0.3s ease;
       text-transform: uppercase; }
       .card .card-action a:hover {
-        color: #ffd8a6; }
+        color: #b8c3ff; }
   .card .card-reveal {
     padding: 20px;
     position: absolute;
@@ -8350,22 +8350,63 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em; } }
 
 .intro {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2e43ad+100 */
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1e5799 0%, #2e43ad 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5799), color-stop(100%, #2e43ad));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #1e5799 0%, #2e43ad 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #1e5799 0%, #2e43ad 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #1e5799 0%, #2e43ad 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #1e5799 0%, #2e43ad 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2e43ad',GradientType=0 );
+  /* IE6-9 */
   text-align: center;
-  padding-top: 3%;
-  padding-bottom: 6%;
+  padding-top: 13%;
+  padding-bottom: 13%;
   margin-bottom: 50px; }
 
 .intro h1 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   font-weight: 900;
   text-transform: uppercase; }
 
 .intro h5 {
   text-transform: uppercase;
-  background-color: #f5f5f5;
   padding: 10px;
-  color: #333333;
+  color: white;
+  letter-spacing: 3px;
   display: inline-block;
-  font-size: 1.2rem; }
+  font-size: 1.6rem; }
+
+.about .col {
+  margin-bottom: 24px; }
+
+.about h5 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+
+.about h6 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px; }
+
+.about hr {
+  width: 40px;
+  margin-bottom: 45px; }
+
+.about .card {
+  text-align: center; }
+
+.about .card img {
+  margin-bottom: 15px; }
 
 .portfolio .card-content {
   height: 120px; }
@@ -8378,6 +8419,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .portfolio .col {
   margin-bottom: 24px; }
+
+.contact i {
+  padding: 30px; }
+
+.contact a {
+  color: #1e5799; }
 
 .portfolio h5 {
   text-align: center;
