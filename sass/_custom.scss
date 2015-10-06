@@ -15,6 +15,11 @@
   margin-bottom: 50px;
 }
 
+hr {
+  width: 40px;
+  margin-bottom: 45px;
+}
+
 .intro h1 {
   text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
   font-weight: 900;
@@ -49,6 +54,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 45px;
+
 }
 
 .about hr
@@ -71,6 +77,9 @@
   height:120px
 }
 
+.portfolio h1 {
+  margin: 0;
+}
 
 .card-image {
   height:300px;
@@ -83,6 +92,7 @@
 {
   margin-bottom: 24px;
 }
+
 .contact i {
   padding: 30px;
 }
@@ -96,6 +106,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
+  letter-spacing: 2px;
 }
 
 .portfolio h6
@@ -103,6 +114,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 45px;
+  letter-spacing: 5px;
 }
 
 .portfolio hr
@@ -124,4 +136,34 @@
   display: inline-block;
   float: left;
 }
+.contact .col
+{
+  margin-bottom: 24px;
+}
 
+.contact h5
+{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.contact h6
+{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  letter-spacing: 5px;
+}
+
+.contact hr
+{
+  width: 40px;
+  margin-bottom: 45px;
+}
+
+.contact .contact-holder p
+{
+  margin-bottom: 30px;
+}

@@ -8372,6 +8372,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding-bottom: 13%;
   margin-bottom: 50px; }
 
+hr {
+  width: 40px;
+  margin-bottom: 45px; }
+
 .intro h1 {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   font-weight: 900;
@@ -8411,6 +8415,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .portfolio .card-content {
   height: 120px; }
 
+.portfolio h1 {
+  margin: 0; }
+
 .card-image {
   height: 300px;
   width: 100%;
@@ -8429,12 +8436,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .portfolio h5 {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  letter-spacing: 2px; }
 
 .portfolio h6 {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 45px; }
+  margin-bottom: 45px;
+  letter-spacing: 5px; }
 
 .portfolio hr {
   width: 40px;
@@ -8449,3 +8458,25 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   max-height: 300px;
   display: inline-block;
   float: left; }
+
+.contact .col {
+  margin-bottom: 24px; }
+
+.contact h5 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 2px; }
+
+.contact h6 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  letter-spacing: 5px; }
+
+.contact hr {
+  width: 40px;
+  margin-bottom: 45px; }
+
+.contact .contact-holder p {
+  margin-bottom: 30px; }
